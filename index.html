@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Union Yapper's Helper Dashboard</title>
+  <!-- FONTS: JetBrains Mono & Supermolot -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=JetBrains+Mono:400,700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Supermolot:400,700&display=swap">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER -->
+<header class="header">
+  <div class="header-content">
+    <img src="union-logo.svg" class="union-logo" alt="Union Logo" />
+    <a href="https://x.com/Shinosuka_eth" target="_blank" class="dashboard-title">
+      Union Yapper's Helper built by Shinosuka
+    </a>
+    <a href="https://union-gallery.vercel.app" target="_blank" class="get-artworks-btn">
+      Get Artworks
+    </a>
+  </div>
+</header>
+
+  <!-- MAIN CONTAINER -->
+  <main>
+    <!-- LANDING PAGE -->
+    <section id="landing-box" class="landing-box">
+      <div class="landing-content">
+        <img src="union-helper-hero.png" class="landing-img" alt="Union Yapper" />
+        <h1 class="landing-heading">Are You Ready To Create Endless Content?</h1>
+        <p class="landing-desc">
+          The Union Yapper's Helper is your one-stop dashboard for content inspiration, tweet templates, and key Union stats.
+          Unlock the power of cross-chain storytelling and level up your creator game with just one click!
+        </p>
+        <!-- DYNAMIC X USERNAME BOX (NO FORM ELEMENTS) -->
+        <div class="username-input-wrap" id="username-input-wrap">
+          <span class="x-icon"></span>
+          <div class="username-placeholder" id="username-placeholder" contenteditable="true" spellcheck="false">@YourXUsername</div>
+        </div>
+        <button id="enter-dashboard-btn" class="enter-dashboard-btn">
+          Enter The Yappers Helper Dashboard
+        </button>
+      </div>
+    </section>
+
+    <!-- DASHBOARD PAGE (Initially Hidden) -->
+    <section id="dashboard" class="dashboard" style="display:none;">
+      <!-- USER INFO BOX -->
+      <div class="user-info-box">
+        <img src="default-pfp.png" id="user-pfp" class="user-pfp" alt="User Profile Pic" />
+        <div class="user-details">
+          <div class="user-username" id="user-username">@username</div>
+          <div class="user-stats">
+            <span id="user-mindshare0">Mindshare S0: 0</span>
+            <span id="user-mindshare1">Mindshare S1: 0</span>
+          </div>
+        </div>
+      </div>
+      <!-- CONTENT BOXES (TO BE POPULATED VIA JS) -->
+      <div class="content-boxes" id="content-boxes">
+        <!-- Boxes rendered here -->
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    This website has been created to help you create more Union content.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+    </html>
