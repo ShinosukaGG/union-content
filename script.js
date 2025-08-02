@@ -13,7 +13,7 @@ const contentIdeas = [
     heading: "Record‑breaking Trusted Setup Ceremony",
     desc: "Recap Union’s massive Groth16 ceremony with thousands of contributions and its significance ahead of mainnet.",
     link: "https://union.build/blog",
-    tweet: "🚀 Union just broke the record with 4,683 contributions in its Groth16 Trusted Setup Ceremony ahead of mainnet! 🔐 #ZeroKnowledge #UnionBuild Learn more: union.build/blog\n\nVAR"
+    tweet: "🚀 Union just broke the record with 5,866 contributions in its Groth16 Trusted Setup Ceremony ahead of mainnet! 🔐 #ZeroKnowledge #UnionBuild Learn more: union.build/blog\n\nVAR"
   },
   {
     heading: "Introducing Auro BTC – Union’s Native Bitcoin LST",
