@@ -205,7 +205,7 @@ async function showDashboard(username) {
 function renderContentBoxes(username) {
   const container = document.getElementById("content-boxes");
   container.innerHTML = "";
-  const quoteUrl = "https://x.com/Shinosuka_eth"; // Use your X link as quote VAR
+  const quoteUrl = "https://x.com/Shinosuka_eth/status/1951538402957914181"; // Use your X link as quote VAR
   contentIdeas.forEach((item, i) => {
     const box = document.createElement("div");
     box.className = "content-box";
